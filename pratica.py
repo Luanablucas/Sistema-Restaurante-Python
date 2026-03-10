@@ -21,3 +21,38 @@ if temp > 25:
     print("Temperatura acima do esperado")
 else:
     print("Temperatura dentro do esperado") """
+
+"""contador = 0
+
+while contador < 10:
+    print("Processando dados...") """
+
+# Como resolver:
+
+""" contador = 0
+
+while contador < 10:
+    print("Processando dados...")
+    contador += 1 """
+
+"""contador = 0 
+
+for _ in range(5):
+    print("Seja bem vindo!")
+    contador += 1 """
+
+
+"""livros = ["1984", "Dom Casmurro", "O Pequeno Príncipe", "O Hobbit", "Orgulho e Preconceito"]
+
+for livro in livros:
+    if livro == "O Hobbit":
+        print("Livro encontrado:", livro)
+        break """
+
+""" def suaidade():
+    ano_nascimento = int(input("Digite o ano de seu nascimento: "))
+    ano_atual = int(input("Digite o ano atual: "))  
+    idade = ano_atual - ano_nascimento
+    print("Sua idade é:", idade)
+
+suaidade() """
